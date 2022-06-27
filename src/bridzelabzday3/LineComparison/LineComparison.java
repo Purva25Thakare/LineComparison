@@ -30,13 +30,17 @@ public class LineComparison {
 		y4=sc.nextInt();
 		Double length2=Math.sqrt((x4-x3)*(x4-x3)+(y4-y3)*(y4-y3));
 		System.out.println("The length of line2 is" +length2);
-			if(length1.equals(length2)) {
+			/*if(length1.equals(length2)) {
 		System.out.println("Lines are equal");
 		}
 		else {
 			System.out.println("Lines are not equal");
-		}
+		}*/
+		
+			System.out.println(length1 + ".compareTo " +length2+ ":" +length1.compareTo(length2));
+			}
 			
+		
 	}
 
-}
+
